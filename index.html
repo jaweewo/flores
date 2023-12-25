@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Una linda flor</title>
+</head>
+<body>
+  <button onclick="runPythonScript()">Para Alba</button>
+  <script>
+    function runPythonScript() {
+      // Get the path to the Python script.
+      var pythonScriptPath = "main.py";
+      // Run the Python script.
+      subprocess.run(["python", pythonScriptPath]);
+    }
+  </script>
+</body>
+</html>
